@@ -146,13 +146,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="src\Buffer.cpp" />
-    <ClCompile Include="src\Entity.cpp" />
+    <ClCompile Include="src\entities\Entity.cpp" />
+    <ClCompile Include="src\File.cpp" />
     <ClCompile Include="src\Willy.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Array.h" />
     <ClInclude Include="src\Buffer.h" />
-    <ClInclude Include="src\Entity.h" />
+    <ClInclude Include="src\entities\Entity.h" />
     <ClInclude Include="src\File.h" />
     <ClInclude Include="src\math\Math.h" />
     <ClInclude Include="src\Shader.h" />

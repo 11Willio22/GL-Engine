@@ -55,11 +55,11 @@ inline Shader createShader(const char* vertexPath, const char* fragmentPath)
 	GLuint vertexShader = glCreateShader(GL_VERTEX_SHADER);
 	GLuint fragmentShader = glCreateShader(GL_FRAGMENT_SHADER);
 
-	const char* vData = read(vertexPath);
-	const char* fData = read(fragmentPath);
+	String vData = read(vertexPath);
+	String fData = read(fragmentPath);
 
-	glShaderSource(vertexShader, 1, &vData, NULL);
-	glShaderSource(fragmentShader, 1, &fData, NULL);
+	glShaderSource(vertexShader, 1, &vData.data, (GLint*)&(vData.getLength()));
+	glShaderSource(fragmentShader, 1, &fData.data, (GLint*)&(fData.getLength()));
 
 	glCompileShader(vertexShader);
 	glCompileShader(fragmentShader);

@@ -21,7 +21,10 @@
     <ClCompile Include="src\Buffer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\Entity.cpp">
+    <ClCompile Include="src\entities\Entity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\File.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -47,7 +50,7 @@
     <ClInclude Include="src\String.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="src\Entity.h">
+    <ClInclude Include="src\entities\Entity.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

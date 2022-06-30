@@ -1,6 +1,6 @@
 #pragma once
-#include "math/Math.h"
-#include "Buffer.h"
+#include "../math/Math.h"
+#include "../Buffer.h"
 class Entity
 {
 public:

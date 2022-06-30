@@ -23,6 +23,7 @@ public:
 	}
 	type& get(int index)
 	{
+		if (index >= this->depth) return this->data[0];
 		return this->data[index];
 	}
 	void resize(int newLength)
